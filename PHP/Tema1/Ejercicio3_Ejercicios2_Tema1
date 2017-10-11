@@ -1,0 +1,15 @@
+<?php
+
+  $var = 1;
+
+  if(is_string($var) == true){
+
+    echo "String";
+
+  } else if(is_int($var) == true){
+
+    echo "Number";
+
+  } else if()
+
+?>

@@ -1,0 +1,26 @@
+<!Doctype HTML>
+<html>
+  <head>
+  </head>
+  <body>
+    <form action="e2.php" method="post">
+      Nom complet:
+      <input type="text" name="nom"><br>
+      Edat:
+      <input type="text" name="edat"><br>
+      Email:
+      <input type="text" name="email"><br>
+      Sexe:<input type="radio" name="gender" value="hombre" checked> Hombre<br>
+      <input type="radio" name="gender" value="mujer"> Mujer<br>
+      <input type="radio" name="gender" value="otro"> Otro<br>
+      Aficiones:<select name="aficions">
+        <option value="correr">Correr</option>
+        <option value="cantar">Cantar</option>
+        <option value="bailar">Bailar</option>
+        <option value="futbol">Futbol</option>
+        <option value="condurir">Conducir</option>
+        <input type="submit" value="enter" name="submit">
+      </select>
+    </form>
+  </body>
+</html>
